@@ -1,0 +1,11 @@
+http://ejudge.kz/new-client?contest_id=101
+
+Login: pp123_{id}
+Password: {id}
+
+For example, if you have an id 23BD2023
+
+pp123_23BD2023
+23BD2023
+
+n.ussyukin@kbtu.kz
