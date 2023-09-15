@@ -1,3 +1,6 @@
+// Задача №2936. Гипотенуза
+// https://informatics.msk.ru/mod/statements/view.php?id=2296
+
 #include <iostream>
 #include <cmath>
 

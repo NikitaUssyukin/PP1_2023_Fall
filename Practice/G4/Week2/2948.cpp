@@ -1,3 +1,6 @@
+// Задача №2948. Электронные часы - 2
+// https://informatics.msk.ru/mod/statements/view.php?id=2296&chapterid=2948
+
 #include <iostream>
 
 using namespace std;
