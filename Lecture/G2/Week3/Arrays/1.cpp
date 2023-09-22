@@ -10,6 +10,7 @@ int main() {
     b = 2;
     c = 3;
 
+    // array of size 8
     int array[] = {1, 2, 3, 4, 5, 6, 7, 8};
     // indexes     0  1  2  3  4  5  6  7
 

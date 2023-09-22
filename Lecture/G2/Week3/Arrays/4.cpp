@@ -16,13 +16,9 @@ int main() {
 
     cout << sizeOfArray << endl;
 
-    string str;
-
-    cout << sizeof(str) << endl;
-
-    // for (int i = 0; i < 8; i++) {
-    //     cout << array[i] << endl;
-    // }
+    for (int i = 0; i < sizeOfArray; i++) {
+        cout << array[i] << endl;
+    }
 
     return 0;
 }
