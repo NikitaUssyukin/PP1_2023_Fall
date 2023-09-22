@@ -14,4 +14,6 @@ int main() {
         cout << s[i] << endl;
     }
 
+    
+
 }

@@ -12,6 +12,11 @@ int main() {
         cout << s[i] << endl;
     }
 
-    
+    // &
+    // |
+
+    int a, b;
+
+    a & b;
 
 }

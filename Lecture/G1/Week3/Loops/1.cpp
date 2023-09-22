@@ -34,6 +34,8 @@ int main() {
     for (int i = 1; i <= 10; i++) {
         if (i%2==1) continue;
         cout << i << endl;
+        // ... lines of code 
+        // ... more lines
     }
 
     return 0;
