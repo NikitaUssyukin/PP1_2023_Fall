@@ -42,6 +42,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
+            // printf("%4d", a[i][j]); 
             cout << a[i][j] << " ";
         }
         cout << endl;
