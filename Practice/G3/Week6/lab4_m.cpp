@@ -6,35 +6,32 @@ int main() {
 
     int n;
     cin >> n;
-
     int a[n][n];
-
-    // for (int i = 0; i < n; i++) {
-    //     for (int j = 0; j < n; j++) {
-    //         a[i][j] = 0;
-    //     }
-    // }
-
-    int x, y; // int frame = 0;
-    x = 0;
-    y = n - 1;
 
     int counter = 1;
 
-    while (x <= y) {
+    int x, y;
 
+    x = 0;
+    y = n - 1;
+
+    while (x <= y) {
+        // first row
         for (int j = x; j <= y; j++) {
             a[x][j] = counter++;
         }
 
+        // last column
         for (int i = x + 1; i <= y; i++) {
             a[i][y] = counter++;
         }
 
+        // last row
         for (int j = y - 1; j >= x; j--) {
             a[y][j] = counter++;
         }
 
+        // first column
         for (int i = y - 1; i > x; i--) {
             a[i][x] = counter++;
         }
@@ -42,8 +39,6 @@ int main() {
         x++;
         y--;
     }
-
-    // cout << counter << endl;
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
