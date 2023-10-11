@@ -1,4 +1,4 @@
-// not solved yet
+// solved
 #include <iostream>
 
 using namespace std;
@@ -30,11 +30,11 @@ int main() {
             a[i][n - 1 - frame] = counter++;
         }
 
-        for (int j = n - 1 - frame; j >= frame; j--) {
+        for (int j = n - 2 - frame; j >= frame; j--) {
             a[n - 1 - frame][j] = counter++;
         }
 
-        for (int i = n - 1 - frame; i > frame; i--) {
+        for (int i = n - 2 - frame; i > frame; i--) {
             a[i][frame] = counter++;
         }
 
