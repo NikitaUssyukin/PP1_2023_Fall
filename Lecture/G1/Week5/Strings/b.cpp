@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -61,7 +61,7 @@ int main() {
     // find
     cout << sentence.find("?") << endl;
     
-    // constand string::npos
+    // constant string::npos
     if (sentence.find("?") == string::npos) cout << "no ? sign\n";
 
     int position = sentence.find(" ");
