@@ -20,7 +20,7 @@ int main() {
 
     cout << outputStream.str();
 
-    string input("Int: 52 Double 4.21");
+    string input("Int: 52 Double: 4.21");
 
     istringstream inputStream(input);
 

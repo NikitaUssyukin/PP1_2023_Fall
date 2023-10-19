@@ -51,5 +51,9 @@ int main() {
 
     cout << reversedName << endl;
 
+    //substr
+    
+    //insert
+
     return 0;
 }
