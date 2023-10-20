@@ -12,18 +12,18 @@ using namespace std;
 //     return sum;
 // }
 
-// incorrect
-int arraySum(int a[]) {
-    int n = sizeof(a) / sizeof(a[0]);
-    int sum = 0;
-    for (int i = 0; i < n; i++) {
-        sum += a[i];
-        a[i] = 0;
-    }
-    return sum;
-}
+// // incorrect
+// int arraySum(int a[]) {
+//     int n = sizeof(a) / sizeof(a[0]);
+//     int sum = 0;
+//     for (int i = 0; i < n; i++) {
+//         sum += a[i];
+//         a[i] = 0;
+//     }
+//     return sum;
+// }
 
-// one way to fix it
+// and one way to fix it
 int arraySum(int a[], int n) {
     int sum = 0;
     for (int i = 0; i < n; i++) {
@@ -44,7 +44,6 @@ int main() {
     // // size of the array in main function
     // // and then pass it as the parameter
     int n = sizeof(a) / sizeof(a[0]);
-    int n = a.size();
 
     for (int i = 0; i < n; i++) {
         cin >> a[i];

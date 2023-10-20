@@ -10,17 +10,10 @@ void toUppercase(string str) {
     cout << str << endl;
 }
 
-
 int main() {
 
     string str;
     cin >> str;
-
-    for(int i = 0; i < 5; i++) {
-
-    }
-
-    cout << i << endl;
 
     toUppercase(str);
 
