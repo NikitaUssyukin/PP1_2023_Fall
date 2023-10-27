@@ -16,7 +16,7 @@ int main() {
 
     int n = 10;
 
-    for(int j = 1; n > -100; j*=2, n-=j, ) {
+    for(int j = 1; n > -100; j*=2, n-=j) {
         cout << j << " " << n << endl;
     }
 

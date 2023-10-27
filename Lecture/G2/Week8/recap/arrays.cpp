@@ -28,7 +28,8 @@ int main() {
     }
     cout << endl;
 
-    // reverse(a + 2, a + n - 1);
+    reverse(a + 2, a + n - 1);
+    // or
     reverse(a + 2, a + 6);
 
     for(int i = 0; i < n; i++) {

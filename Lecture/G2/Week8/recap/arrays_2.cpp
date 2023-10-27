@@ -42,6 +42,7 @@ int main() {
     cout << endl;
 
     sort(*a, *(a + n - 1) + m);
+    reverse(*a, *(a + n - 1) + m);
 
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < m; j++) {
