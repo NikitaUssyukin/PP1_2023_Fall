@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -15,8 +14,8 @@ int main() {
 
     int x, y;
 
-    x = 0; // k = x;
-    y = n - 1; // n - 1 - k = y
+    // x = 0; // k = x;
+    // y = n - 1; // n - 1 - k = y
 
     for(int k = 0; k <= (n - 1) / 2; k++) {
 
@@ -40,6 +39,7 @@ int main() {
 
     for(int i = 0; i < n; i++) {
         for(int j = 0; j < n; j++) {
+            cout.width(3);
             cout << a[i][j] << " ";
         }
         cout << endl;

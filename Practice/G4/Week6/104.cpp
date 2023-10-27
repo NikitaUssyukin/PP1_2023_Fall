@@ -6,7 +6,6 @@ int main() {
 
     char c;
     cin >> c;
-
     if ('a' <= c && c <= 'z') {
         cout << char(c - ('a' - 'A')) << endl;
     } else if ('A' <= c && c <= 'Z') {
