@@ -14,9 +14,11 @@ int main() {
         arr[i] = i + 1;
     }
 
-    reverse(arr[a - 1], arr[b]);
+    // reverse(arr[a - 1], arr[b]);
 
-    reverse(arr + c - 1, arr + d);
+    // reverse(arr + c - 1, arr + d);
+
+    sort(arr, arr + n);
 
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
