@@ -12,8 +12,13 @@ int main() {
     double c, d;
     c = 4.5;
     d = 5.4;
+
+    int e = c;
     
     cout << ourMax(c, d) << endl;
+    // ourMax(int a = c, int b = d)
+
+
 
 
     return 0;
