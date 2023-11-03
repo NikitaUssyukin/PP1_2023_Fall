@@ -16,10 +16,7 @@ int main() {
     // cout << greeting() << endl; 
     // trying to cout a void function - also a mistake!
 
-    int c = addition(2, 5);
-    // c = 7;
-
-    cout << c << endl;
+    cout << addition(2, 5) << endl;
 
     return 0;
 }

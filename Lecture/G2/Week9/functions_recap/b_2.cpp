@@ -7,7 +7,10 @@ string greetSomeone(string name) {
 }
 
 int main() {
-    cout << greetSomeone("Nikita") << endl;
+    string name;
+    cin >> name;
+
+    cout << greetSomeone(name) << endl;
 
     return 0;
 }
