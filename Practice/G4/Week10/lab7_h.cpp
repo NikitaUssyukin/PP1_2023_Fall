@@ -14,12 +14,12 @@ int main() {
     int n;
     cin >> n;
 
-    // cout << fib(n) << endl;
+    cout << fib(n) << endl;
 
-    for(int i = 1; i <= n; i++){
-        cout << fib(i) << " ";
-    }
-    cout << endl;
+    // for(int i = 0; i < n; i++){
+    //     cout << fib(i) << " ";
+    // }
+    // cout << endl;
 
     return 0;
 }
