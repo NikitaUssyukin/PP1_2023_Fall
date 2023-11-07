@@ -10,6 +10,7 @@ int main() {
     while(cin >> n) {
         counter++;
     }
+    // Ctrl + D to stop input
 
     cout << counter << endl;
 
