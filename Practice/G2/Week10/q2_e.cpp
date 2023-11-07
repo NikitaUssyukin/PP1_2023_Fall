@@ -1,6 +1,3 @@
-// incomplete solution
-// doesn't take into account all cases
-// !!!
 #include <iostream>
 #include <algorithm>
 
