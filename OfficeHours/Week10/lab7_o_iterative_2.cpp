@@ -6,7 +6,6 @@ using namespace std;
 string tokinary(int n, int k) {
     string s;
 
-    int j = 0;
     while(n > 0) {
         string temp;
         if(n % k > 9) {
