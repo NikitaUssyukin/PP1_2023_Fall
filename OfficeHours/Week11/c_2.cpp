@@ -5,28 +5,41 @@
 
 using namespace std;
 
-string compressBinary(string s, int i, int counter) {
-    if(i >= s.size()) return s;
-    if(s.at(i) == '1' && counter == 0) s.at(i) = 'a';
-    else if(s.at(i) == '0') counter++;
-    else {
-        s.erase(i - counter, counter + 1);
-        // cout << char(97 + counter) << endl;
-        cout << to_string('a') << endl;
-        s.insert(i - counter, to_string(char(97 + counter)));
-        i -= counter;
-        counter = 0;
+string compressBinary(string s, int counter) {
+    string substr;
+    if(s.empty()) {
+        substr.insert(0, counter, '0');
+        return substr;
     }
-    i++;
-    return compressBinary(s, i, counter);
+    else if(s.front() == '1' && counter == 0) {
+        s.erase(0, 1);
+        return "a" + compressBinary(s, counter);
+    }
+    if(s.front() == '0') {
+        s.erase(0, 1);
+        counter++;
+        return compressBinary(s, counter);
+    }
+
+    s.erase(0, 1);
+    substr += char(97 + counter);
+    counter = 0;
+    
+    return substr + compressBinary(s, counter);
 }
+
+// 0000000000000000000000001
+// y
+
+// 101001
+// abc
 
 int main() {
 
     string s;
     cin >> s;
 
-    cout << compressBinary(s, 0, 0) << endl;
+    cout << compressBinary(s, 0) << endl;
 
     return 0;
 }
