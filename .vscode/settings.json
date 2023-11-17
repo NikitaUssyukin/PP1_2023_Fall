@@ -12,6 +12,7 @@
         "__split_buffer": "cpp",
         "array": "cpp",
         "deque": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "algorithm": "cpp"
     }
 }
