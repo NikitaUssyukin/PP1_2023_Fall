@@ -17,19 +17,15 @@ int main() {
     }
 
     map<string, int>::iterator it;
-
+    // int i = 0;
     for(it = m.begin(); it != m.end(); it++) {
         cout << (*it).first << " " << (*it).second << endl;
         cout << it -> first << " " << it -> second << endl;
+        // !!! You can't use + or - operation directly on map iterator
+        // You can only use increment(++) or decrement(--)
+        // cout << *(it + i).first << " " << *(it + i).second << endl;
+        // i++;
     }
-
-    /*
-    Apple 7
-    Oranges 3
-    Pears 4
-    Bananas 9
-    Pineapple 1
-    */
 
     return 0;
 }

@@ -13,6 +13,13 @@
         "array": "cpp",
         "deque": "cpp",
         "map": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "initializer_list": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "filesystem": "cpp"
     }
 }

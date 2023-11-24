@@ -6,11 +6,11 @@ using namespace std;
 int main() {
     map<string, int> m;
 
-    m["Apple"] = 7;
+    m["Apples"] = 7;
     m["Oranges"] = 3;
     m["Pears"] = 4;
     m["Bananas"] = 9;
-    m["Pineapple"] = 1;
+    m["Pineapples"] = 1;
 
     map<string, int>::iterator it;
 
@@ -20,11 +20,11 @@ int main() {
     }
 
     /*
-    Apple 7
+    Apples 7
     Oranges 3
     Pears 4
     Bananas 9
-    Pineapple 1
+    Pineapples 1
     */
 
     return 0;
