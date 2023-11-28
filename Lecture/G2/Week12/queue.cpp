@@ -23,5 +23,7 @@ int main() {
     }
     cout << endl;
 
+    cout << "Last element of the queue: " << q.back() << endl;
+
     return 0;
 }

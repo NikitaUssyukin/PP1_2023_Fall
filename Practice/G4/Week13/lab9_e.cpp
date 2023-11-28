@@ -16,23 +16,14 @@ int main() {
         else m[s]++;
     }
 
-    // for(int i = 0; i < n; i++) {
-    //     string s;
-    //     cin >> s;
-    //      m[s]++; - !!! this also works, but might give undefined behaviour
-    // }
-
-    // string s;
-    // cin >> s;
-    // m[s]++;
-
     map<string, int>::iterator it;
     int counter = 0;
     for(it = m.begin(); it != m.end(); it++) {
-        if((*it).second == 3) counter++;
+        if(it->second == 3) counter++;
     }
-
+    
     cout << counter << endl;
+
 
     return 0;
 }
