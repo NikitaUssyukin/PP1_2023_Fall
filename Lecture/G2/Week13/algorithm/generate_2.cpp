@@ -12,6 +12,8 @@ int sequence() {
     return num++;
 }
 
+// 1 2 3 4 5 
+
 int main() {
     int n;
     cin >> n;
