@@ -12,6 +12,10 @@ int main() {
     m["Bananas"] = 9;
     m["Pineapples"] = 1;
 
+    cout << m["Apples"] << endl;
+    cout << m["Pears"] << endl;
+    cout << m["Pineapples"] << endl;
+
     map<string, int>::iterator it;
 
     for(it = m.begin(); it != m.end(); it++) {
